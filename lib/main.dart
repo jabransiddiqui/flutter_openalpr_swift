@@ -44,7 +44,7 @@ class _MyHomePageState extends State<MyHomePage> {
     super.initState();
     eventChannel.receiveBroadcastStream().listen((event) {
       print(event["plat_no"]);
-      //print(map["base64_image"]);
+      //print(event["base64_image"]);
     });
   }
 
